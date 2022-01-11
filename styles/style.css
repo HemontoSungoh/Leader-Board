@@ -1,0 +1,10 @@
+/* Top Playears and Top Blog Start */
+.players{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+/* Top Playears and Top Blog End */
