@@ -1,7 +1,21 @@
+/* Common Style Or Utilities */
+body{
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #F3F1FF;
+}
+.container{
+    background-color: #FFFFFF;
+    width: 870px;
+}
 /* Top Playears and Top Blog Start */
 .players{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
+}
+.player{
+    display: flex;
+    align-items: center;
+    
 }
 .player img{
     width: 56px;
