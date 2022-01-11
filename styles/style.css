@@ -3,11 +3,18 @@ body{
     font-family: 'Noto Sans', sans-serif;
     background-color: #F3F1FF;
 }
+main{
+    display: flex;
+    justify-content: center;
+}
 .container{
     background-color: #FFFFFF;
     width: 870px;
 }
 /* Top Playears and Top Blog Start */
+.section-title{
+    
+}
 .players{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
